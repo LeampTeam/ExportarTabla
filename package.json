@@ -1,0 +1,22 @@
+{
+  "name": "procesoexportar",
+  "version": "1.0.0",
+  "description": "Crea una nueva base de datos a partir de una existente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeampTeam/ExportarTabla.git"
+  },
+  "author": "Rafael Ziraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeampTeam/ExportarTabla/issues"
+  },
+  "homepage": "https://github.com/LeampTeam/ExportarTabla#readme",
+  "dependencies": {
+    "mongoose": "^5.9.10"
+  }
+}
