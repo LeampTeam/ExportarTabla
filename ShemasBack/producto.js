@@ -15,7 +15,8 @@ var ProducSchema=Schema({
     esFragancia:Boolean,
     categoria: { type: Schema.Types.ObjectId, ref: 'Categoria' },
     fragancia: { type: Schema.Types.ObjectId, ref: 'Fragancia' },
-    eliminado:Boolean
+    eliminado:Boolean,
+    estaEnPuntera:String
 
 })
 

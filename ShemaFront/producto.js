@@ -13,7 +13,8 @@ var ProducSchema=Schema({
     img:String,
     categoria:String,
     fragancia: String,
-    eliminado:Boolean
+    eliminado:Boolean,
+    estaEnPuntera:String
 
 })
 
