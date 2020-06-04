@@ -37,14 +37,14 @@ ProductoBack.find({}, function(err,productosBack){
          if(!existe){
             ProductoBack.findOne({code:codeb},function(err,producto){
                 guardar(producto)
-            })
+            }).populate('marca').populate('categoria').populate('fragancia')
            
          }else{
             ProductoBack.findOne({code:codeb},function(err,prob){
                 ProductoFront.findOne({code:codeb},function(err,prof){
                     modificar(prob,prof)
                 })
-            })
+            }).populate('marca').populate('categoria').populate('fragancia')
          }
         })
     }else{
