@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/LeampTeam/ExportarTabla#readme",
   "dependencies": {
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongoose": "^5.9.10"
   }
 }
